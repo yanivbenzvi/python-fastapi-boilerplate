@@ -1,0 +1,10 @@
+log:
+  log_dir: "logs"
+  log_level: "DEBUG"
+  log_max_size: "100MB"
+  log_json_format: true
+  only_log_app: false
+
+feature_flags:
+  pack_request_parameters: true
+  pretty_print: true

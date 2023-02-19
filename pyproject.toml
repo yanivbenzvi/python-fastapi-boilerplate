@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "fastapi-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10.4"
+fastapi = "^0.85.0"
+uvicorn = "^0.18.1"
+pydantic = "^1.9.1"
+requests = "^2.28.0"
+omegaconf = "^2.2.2"
+gunicorn = "^20.1.0"
+aioprometheus = "^22.5.0"
+fastapi-utils = "^0.2.1"
+python-json-logger = "^2.0.4"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pylint = "^2.14.3"
+black = "^22.3.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.pylint]
+rcfile = "qc/pylint.toml"
