@@ -6,6 +6,7 @@ The purpose of this project is to provide a simple and fast way to start a new p
 This project is an example of the article [Python Logging: A Guide for Creating Informative Logs]()
 
 
+
 ## Pre-requisites
 - Python 3.10
 - Poetry (package manager) - https://python-poetry.org/docs/
